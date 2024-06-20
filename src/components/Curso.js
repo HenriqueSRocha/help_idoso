@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
+import { useFont } from './context/ZoomContext';
 
 const Curso = () => {
   const [videoReproduzido, setVideoReproduzido] = useState(false);
   const [pergunta, setPergunta] = useState('');
   const [resposta, setResposta] = useState('');
+  const { fontSize } = useFont();
+
 
   const handleNext = () => {
     // Lógica para a ação do botão "Próximo"
@@ -22,7 +25,7 @@ const Curso = () => {
 
   return (
     <div>
-      <div>
+      <div style={{ fontSize: `${fontSize}px` }}>
         {/* Div para reprodução de vídeo */}
         {videoReproduzido ? (
           <video controls>

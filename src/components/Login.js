@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Login.css'
+import { useFont } from './context/ZoomContext';
 
 const Login = () => {
   const [nome, setNome] = useState('');
@@ -8,6 +9,8 @@ const Login = () => {
   const [sexo, setSexo] = useState('');
   const [email, setEmail] = useState('');
   const navigate = useNavigate();
+  const { fontSize } = useFont();
+
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -20,11 +23,11 @@ const Login = () => {
     console.log('Form Data:', formData);
     // Aqui você pode enviar formData para um servidor ou realizar outra ação
     // Depois de enviar os dados, redirecione para outra rota
-    navigate('/configuracoes');
+    navigate('/zoom');
   };
 
   return (
-    <div className='login-container'>
+    <div className='login-container' style={{ fontSize: `${fontSize}px` }}>
       <h1>Cadastra-se</h1>
       <form onSubmit={handleSubmit}>
         <div className='form'>
