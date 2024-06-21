@@ -9,13 +9,15 @@ const Zoom = () => {
 
     return (
         <div className="zoom-container">
-            <h1>Zoom</h1>
+            <h1>Determine o tamanho da fonte</h1>
             <p style={{ fontSize: `${tamanhofonte}px` }}>Parece bom?</p>
-            <div className="tam-buttons">
+            <div className="tam-buttons-container">
                 <button onClick={diminuifonte} className="tam-button">-</button>
                 <button onClick={aumentafonte} className="tam-button">+</button>
             </div>
-            <button onClick={() => navigate('/configuracoes')} className="tam-button">Está bom!</button>
+            <div className="ok-button">
+                <button onClick={() => navigate('/configuracoes')} className="ok-button">Está bom!</button>
+            </div>
         </div>
     );
 };
