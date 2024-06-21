@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/help_idoso/static/css/main.9e9e61b7.css",
+    "main.js": "/help_idoso/static/js/main.cfefaea6.js",
+    "static/media/idosos.jpg": "/help_idoso/static/media/idosos.447028a8f5d141a67538.jpg",
+    "index.html": "/help_idoso/index.html",
+    "main.9e9e61b7.css.map": "/help_idoso/static/css/main.9e9e61b7.css.map",
+    "main.cfefaea6.js.map": "/help_idoso/static/js/main.cfefaea6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e9e61b7.css",
+    "static/js/main.cfefaea6.js"
+  ]
+}
