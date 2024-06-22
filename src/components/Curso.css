@@ -1,0 +1,111 @@
+body {
+    background-color: #f3e7b3;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .painel-container {
+    display: flex;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .video-section {
+    flex: 2;
+    background-color: #dddddd;
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .video-player {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .content-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .lessons-list {
+    flex: 3;
+    background-color: #dddddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+  }
+  
+  .lessons-list h2 {
+    margin-top: 0;
+  }
+  
+  .lessons-list button {
+    width: 85%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #194756;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+  }
+  
+  .lessons-list button:hover {
+    background-color: #145a73;
+  }
+  
+  .comments-section {
+    flex: 1;
+    background-color: #dddddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+  }
+  
+  .comments-section h2 {
+    margin-top: 0;
+  }
+  
+  .comments-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .comments-section label {
+    margin-bottom: 5px;
+  }
+  
+  .comments-section input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .comments-section button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #194756;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .comments-section button:hover {
+    background-color: #145a73;
+  }
+  
