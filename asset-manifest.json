@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/help-idoso/static/css/main.90546309.css",
-    "main.js": "/help-idoso/static/js/main.ee84136f.js",
-    "static/media/curso3.jpeg": "/help-idoso/static/media/curso3.03d04dde08d754a5cb95.jpeg",
-    "static/media/curso1.jpeg": "/help-idoso/static/media/curso1.717af764365cc9e607dc.jpeg",
-    "static/media/curso2.jpeg": "/help-idoso/static/media/curso2.598d2f3c64d975e3bf06.jpeg",
-    "static/media/idosos.jpg": "/help-idoso/static/media/idosos.447028a8f5d141a67538.jpg",
-    "static/media/login.svg": "/help-idoso/static/media/login.b4faf413e8239d9d33fe10781aa3ac06.svg",
-    "index.html": "/help-idoso/index.html",
-    "main.90546309.css.map": "/help-idoso/static/css/main.90546309.css.map",
-    "main.ee84136f.js.map": "/help-idoso/static/js/main.ee84136f.js.map"
+    "main.css": "/help_idoso/static/css/main.90546309.css",
+    "main.js": "/help_idoso/static/js/main.dd7694b6.js",
+    "static/media/curso3.jpeg": "/help_idoso/static/media/curso3.03d04dde08d754a5cb95.jpeg",
+    "static/media/curso1.jpeg": "/help_idoso/static/media/curso1.717af764365cc9e607dc.jpeg",
+    "static/media/curso2.jpeg": "/help_idoso/static/media/curso2.598d2f3c64d975e3bf06.jpeg",
+    "static/media/idosos.jpg": "/help_idoso/static/media/idosos.447028a8f5d141a67538.jpg",
+    "static/media/login.svg": "/help_idoso/static/media/login.b4faf413e8239d9d33fe10781aa3ac06.svg",
+    "index.html": "/help_idoso/index.html",
+    "main.90546309.css.map": "/help_idoso/static/css/main.90546309.css.map",
+    "main.dd7694b6.js.map": "/help_idoso/static/js/main.dd7694b6.js.map"
   },
   "entrypoints": [
     "static/css/main.90546309.css",
-    "static/js/main.ee84136f.js"
+    "static/js/main.dd7694b6.js"
   ]
 }
