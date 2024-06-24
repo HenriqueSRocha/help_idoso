@@ -1,0 +1,62 @@
+{
+    "aplicativos": [
+        {
+            "id": 1,
+            "link": "2Esia8b_D8k",
+            "nome": "Instalando aplicativos",
+            "descrição": "Aprenda a instalar aplicativos em seu celular"
+        },
+        {
+            "id": 2,
+            "link": "9TXcXcy-bDA",
+            "nome": "Uber e 99",
+            "descrição": "Aprenda a solicitar transporte por aplicativos"
+        },
+        {
+            "id": 3,
+            "link": "Xpn6EDkgtEs",
+            "nome": "Ifood (Aplicativos de Entrega)",
+            "descrição": "Aprenda a pedir comida pelo aplicativo"
+        }
+    ],
+    "instagram": [
+        {
+            "id": 1,
+            "link": "nYfFkcwuJlg",
+            "nome": "Primeiro contato",
+            "descrição": "Aprenda a criar sua conta no Instagram"
+        },
+        {
+            "id": 2,
+            "link": "H_ng80bQsVI",
+            "nome": "Publicações",
+            "descrição": "Aprenda a fazer publicações"
+        },
+        {
+            "id": 3,
+            "link": "RCtMqn5RSEc",
+            "nome": "Storys",
+            "descrição": "Aprenda a publicar storys"
+        }
+    ],
+    "whatsapp": [
+        {
+            "id": 1,
+            "link": "wtg2gg-samA",
+            "nome": "Primeiro contato",
+            "descrição": "Tenha seu primeiro contato com o aplicativo"
+        },
+        {
+            "id": 2,
+            "link": "-vn3__rxcGc",
+            "nome": "Configuração e Personalização",
+            "descrição": "Configure e personalize da maneira que quiser"
+        },
+        {
+            "id": 3,
+            "link": "0VywM4TwWr8",
+            "nome": "Download e Upload de Mídias",
+            "descrição": "Aprenda a baixar e enviar mídias"
+        }
+    ]
+}

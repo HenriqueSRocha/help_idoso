@@ -16,7 +16,7 @@ const Zoom = () => {
                 <button onClick={aumentafonte} className="tam-button">+</button>
             </div>
             <div className="ok-button-container">
-                <button onClick={() => navigate('/configuracoes')} className="ok-button">Está bom!</button>
+                <button onClick={() => navigate('/cursos')} className="ok-button">Está bom!</button>
             </div>
         </div>
     );
