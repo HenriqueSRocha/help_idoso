@@ -1,75 +1,43 @@
-import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
-import './Login.css'
-import { useFont } from './context/ZoomContext';
+import React from 'react';
+import { useNavigate, Link } from 'react-router-dom';
+import './Login.css';
+import userImage from '../assets/login.svg';
 
 const Login = () => {
-  const [nome, setNome] = useState('');
-  const [dataNascimento, setDataNascimento] = useState('');
-  const [sexo, setSexo] = useState('');
-  const [email, setEmail] = useState('');
-  const navigate = useNavigate();
-  const { fontSize } = useFont();
+    const navigate = useNavigate();
 
-
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    const formData = {
-      nome,
-      dataNascimento,
-      sexo,
-      email
+    const handleButtonClick = () => {
+        navigate('/zoom');
     };
-    console.log('Form Data:', formData);
-    // Aqui você pode enviar formData para um servidor ou realizar outra ação
-    // Depois de enviar os dados, redirecione para outra rota
-    navigate('/zoom');
-  };
 
-  return (
-    <div className='login-container' style={{ fontSize: `${fontSize}px` }}>
-      <h1>Cadastra-se</h1>
-      <form onSubmit={handleSubmit}>
-        <div className='form'>
-          <label>Nome:</label>
-          <input
-            type="text"
-            value={nome}
-            onChange={(e) => setNome(e.target.value)}
-            required
-          />
+    return (
+        <div className="login-container">
+            <div className='container'>
+                <div className="left-panel">
+                    <img src={userImage} alt="User" className="user-image" />
+                </div>
+                <div className="right-panel">
+                    <h2>Login</h2>
+                    <form>
+                        <div className="form-group">
+                            <label htmlFor="username">Nome de usuário:</label>
+                            <input type="text" id="username" name="username" required />
+                        </div>
+                        <div className="form-group">
+                            <label htmlFor="password">Senha:</label>
+                            <input type="password" id="password" name="password" required />
+                        </div>
+                        <button onClick={handleButtonClick}>Entrar</button>
+                    </form>
+                    <div className="links">
+                        <Link to="/esqueci-senha">Esqueci minha senha</Link>
+                        <span> | </span>
+                        <Link to="/cadastrar">Primeiro acesso</Link>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div className='form'>
-          <label>Data de Nascimento:</label>
-          <input
-            type="date"
-            value={dataNascimento}
-            onChange={(e) => setDataNascimento(e.target.value)}
-            required
-          />
-        </div>
-        <div className='form'>
-          <label>Sexo:</label>
-          <select value={sexo} onChange={(e) => setSexo(e.target.value)} required>
-            <option value="" disabled>Selecione</option>
-            <option value="Masculino">Masculino</option>
-            <option value="Feminino">Feminino</option>
-            <option value="Outro">Outro</option>
-          </select>
-        </div>
-        <div className='form'>
-          <label>Email:</label>
-          <input
-            type="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            required
-          />
-        </div>
-        <button type="submit" className='login-button'>Enviar</button>
-      </form>
-    </div>
-  );
+    );
 };
 
 export default Login;
