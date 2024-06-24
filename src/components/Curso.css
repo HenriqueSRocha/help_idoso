@@ -80,99 +80,9 @@ body {
   .lessons-list button:hover {
     background-color: #145a73;
   }
-  
-  .comments-section {
-    flex: 1;
-    border-top: 4px solid #145a73;
-  }
-  
-  .comments-section h2 {
-    margin-top: 20px;
-    color: #145a73;
-  }
-  
-  .comments-section form {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-  
-  .comments-section label {
-    margin-bottom: 5px;
-    color: #145a73;
-    font-size: 18px;
-  }
-  
-  .comments-section input {
-    width: 900px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-
-  .add-question {
-    height: 40px;
-    min-width: 250px;
-    margin-top: 40px;
-  }
-  
-  .comments-section button:hover {
-    background-color: #145a73;
-  }
-
-  .duvidas-list {
-    width: 100%;
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
-  }
-
-  .duvida-item,
-  .respostas-list {
-    font-size: 18px;
-  }
-
-  .duvida-item strong,
-  .respostas-list strong {
-    color: #145a73;
-    font-size: 18px;
-  }
-
-  .container-answer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    width: 100%;
-  }
-
-  .container-answer input {
-    width: 900px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-
-  .add-answer {
-    height: 40px;
-    width: 250px;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: #194756;
-    color: white;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    margin-top: 40px;
-  }
-  
-  .comments-section button:hover {
-    background-color: #145a73;
-  }
 
   .btn-back {
-    width: 240px;
+    width: 220px;
     height: 30px;
     padding: 10px 20px;
     margin: 20px 0;
@@ -191,5 +101,12 @@ body {
   
   .btn-back:hover {
     background-color: #14536b;
+  }
+  
+  .finish {
+    font-size: 40px;
+    margin-top: 140px;
+    font-weight: bold;
+    color: #145a73;
   }
   
