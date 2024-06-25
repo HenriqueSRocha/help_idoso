@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/help_idoso/static/css/main.90546309.css",
-    "main.js": "/help_idoso/static/js/main.d34e55c0.js",
+    "main.js": "/help_idoso/static/js/main.ca904bd7.js",
     "static/media/curso3.jpeg": "/help_idoso/static/media/curso3.03d04dde08d754a5cb95.jpeg",
     "static/media/curso1.jpeg": "/help_idoso/static/media/curso1.717af764365cc9e607dc.jpeg",
     "static/media/curso2.jpeg": "/help_idoso/static/media/curso2.598d2f3c64d975e3bf06.jpeg",
@@ -9,10 +9,10 @@
     "static/media/login.svg": "/help_idoso/static/media/login.b4faf413e8239d9d33fe10781aa3ac06.svg",
     "index.html": "/help_idoso/index.html",
     "main.90546309.css.map": "/help_idoso/static/css/main.90546309.css.map",
-    "main.d34e55c0.js.map": "/help_idoso/static/js/main.d34e55c0.js.map"
+    "main.ca904bd7.js.map": "/help_idoso/static/js/main.ca904bd7.js.map"
   },
   "entrypoints": [
     "static/css/main.90546309.css",
-    "static/js/main.d34e55c0.js"
+    "static/js/main.ca904bd7.js"
   ]
 }
